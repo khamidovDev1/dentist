@@ -72,7 +72,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="">
+            <div className="footer_end">
                 <div className="">
                     <h1>© Skyline Dental 2023 | Privacy Policy</h1>
                 </div>
