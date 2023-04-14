@@ -59,7 +59,7 @@
         // background-color: red;
         background-position: center;
         // border-size: cover;
-        height: auto;
+        height: 70vh;
 
         .main4_div1 {
             width: 100%;
@@ -71,6 +71,10 @@
 
             div:nth-child(2) {
                 color: white;
+
+                p {
+                    font-size: 10px;
+                }
             }
 
             div:nth-child(3) {
