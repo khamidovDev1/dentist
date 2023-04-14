@@ -1,0 +1,191 @@
+.main2 {
+    width: 100%;
+    height: 90vh;
+    // background-color: red;
+
+    .main_text1 {
+        width: 100%;
+        height: 50%;
+        // background-color: blue;
+        display: flex;
+
+        .text1_div1 {
+            width: 50%;
+            height: 100%;
+            border: 5px solid white;
+            // border-bottom: none;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .text1_div2 {
+            width: 50%;
+            height: 100%;
+            border: 5px solid white;
+            background-color: green;
+            background-image: url("../../images/nature.jpg");
+            background-position: center;
+            background-size: cover;
+            // filter: opacity(80%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+            // background-attachment: fixed;
+
+            button {
+                margin-right: auto;
+                margin-left: 50px;
+                margin-top: 70px;
+                width: 170px;
+                height: 40px;
+                background-color: #070b0f;
+                color: white;
+                border: none;
+            }
+
+            div:nth-child(1) {
+                width: 90%;
+                // background-color: red;
+                height: 60px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                h1 {
+                    color: white;
+                    font-size: 30px;
+                    font-family: sans-serif;
+
+                    span {
+                        color: black;
+                    }
+                }
+
+                p {
+                    color: white;
+                    font-size: 20px;
+                }
+            }
+
+            div:nth-child(2) {
+                width: 90%;
+                padding-top: 40px;
+
+                p {
+                    color: white;
+                    font-size: 18px;
+                    font-family: sans-serif;
+                }
+            }
+
+
+        }
+    }
+
+    .main_text2 {
+        width: 100%;
+        height: 50%;
+        // background-color: blue;
+        display: flex;
+
+
+        .text2_div1 {
+            width: 50%;
+            height: 100%;
+            // border: 2px solid red;
+            // background-color: green;
+            padding-top: 40px;
+            padding-left: 40px;
+            padding-right: 40px;
+
+            h1 {
+                color: black;
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 18px;
+                font-family: sans-serif;
+                margin-top: 20px;
+                color: black;
+            }
+
+            button {
+                margin-top: 80px;
+                width: 170px;
+                height: 40px;
+                background-color: #C29470;
+                color: white;
+                border: none;
+                font-size: 10px;
+            }
+        }
+
+        .text2_div2 {
+            width: 50%;
+            height: 100%;
+            border: 5px solid white;
+            background-color: green;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+@media(max-width:500px) {
+    .main2 {
+        width: 100%;
+        height: 180vh;
+
+        .main_text1 {
+            flex-direction: column;
+            width: 100%;
+            background-color: red;
+            height: 80vh;
+
+            .text1_div1 {
+                width: 100%;
+            }
+
+            .text1_div2 {
+                width: 100%;
+            }
+        }
+
+        .main_text2 {
+            flex-direction: column-reverse;
+            width: 100%;
+            height: 60vh;
+
+            .text2_div1 {
+                width: 100%;
+                height: 30%;
+
+                button {
+                    margin-top: 20px;
+                }
+
+            }
+
+            .text2_div2 {
+                width: 100%;
+                // height: 50%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}

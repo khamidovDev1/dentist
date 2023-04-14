@@ -1,0 +1,36 @@
+.navtop {
+    width: 100%;
+    height: 30px;
+    background-color: #121C26;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px 0 40px;
+    position: fixed;
+    z-index: 10;
+
+    .navtop_start {
+        h1 {
+            color: #C29470;
+            font-size: 15px;
+        }
+    }
+
+    .navtop_end {
+        h1 {
+            color: white;
+            font-size: 15px;
+
+            span {
+                color: #C29470;
+            }
+        }
+    }
+}
+
+@media (max-width:500px) {
+    .navtop {
+        display: none;
+    }
+}

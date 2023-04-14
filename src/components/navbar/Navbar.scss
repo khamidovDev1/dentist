@@ -1,0 +1,170 @@
+.navbar {
+    width: 100%;
+    height: 90px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.16290266106442575) 0%, rgba(80, 78, 78, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    position: fixed;
+    top: 30px;
+    z-index: 19;
+
+    .logo {
+        width: 110px;
+        height: 75%;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .nav_menu {
+        width: 900px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        // background-color: blue;
+
+        .menu_ul {
+            width: calc(100% - 250px);
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            font-size: 20px;
+            height: 100%;
+
+
+            li {
+                height: 100%;
+                list-style-type: none;
+                // background-color: green;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                position: relative;
+
+
+                &:hover div {
+                    display: block;
+                    background-color: #121C26;
+                    transition: 1s;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+
+                .li_hover1 {
+                    border-top: 4px solid #C29470;
+                    width: 300px;
+                    height: 160px;
+                    background-color: red;
+                    position: absolute;
+                    top: 90px;
+                    display: none;
+                    transition: 1s;
+
+                    ul {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        height: 100%;
+                        padding: 10px 30px 10px 30px;
+                    }
+                }
+
+                .li_hover2 {
+                    border-top: 4px solid #C29470;
+                    width: 300px;
+                    height: 180px;
+                    background-color: red;
+                    position: absolute;
+                    top: 90px;
+                    display: none;
+
+                    ul {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        height: 100%;
+                        padding: 10px 30px 10px 30px;
+                    }
+                }
+
+                .li_hover3 {
+                    border-top: 4px solid #C29470;
+                    width: 300px;
+                    height: 220px;
+                    background-color: red;
+                    position: absolute;
+                    top: 90px;
+                    display: none;
+
+                    ul {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        height: 100%;
+                        padding: 10px 30px 10px 30px;
+                    }
+                }
+            }
+        }
+
+        button {
+            width: 250px;
+            height: 40px;
+            background-color: #708f84;
+            font-size: 15px;
+            transition: .5s;
+            border: none;
+
+            &:hover {
+                background-color: #90b3a7;
+            }
+        }
+    }
+
+    .nav_end {
+        display: none;
+        // background-color: red;
+
+        .bars_icons {
+            // display: none;
+        }
+    }
+}
+
+@media (max-width:500px) {
+    .navbar {
+        background-color: #121C26;
+
+        .logo {
+            width: 100px;
+            height: 60%;
+        }
+
+        top: 0;
+
+        .nav_menu {
+            display: none;
+        }
+
+        .nav_end {
+            display: flex;
+            width: 40px;
+            height: 40px;
+            align-items: center;
+            justify-content: center;
+
+            .bars_icons {
+                font-size: 23px;
+                color: #C29470;
+            }
+        }
+    }
+}
