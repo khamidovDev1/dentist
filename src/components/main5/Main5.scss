@@ -60,7 +60,9 @@
     .main5 {
         width: 100%;
         flex-direction: column;
-        height: 100vh;
+        justify-content: space-between;
+        height: 80vh;
+        padding: 30px;
 
         .main5_div1 {
             width: 100%;
