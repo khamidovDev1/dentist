@@ -151,7 +151,7 @@
             flex-direction: column;
             width: 100%;
             // background-color: red;
-            height: 80vh;
+            height: 100vh;
 
             .text1_div1 {
                 width: 100%;
@@ -159,7 +159,28 @@
 
             .text1_div2 {
                 width: 100%;
-                background-color: red;
+                padding: 20px;
+
+                div {
+                    p {
+                        font-size: 10px;
+                    }
+                }
+
+                div:nth-child(1) {
+                    height: auto;
+                    padding: 0;
+
+                    h1 {
+                        font-size: 20px;
+                    }
+                }
+
+                div:nth-child(2) {
+
+                    height: 130px;
+                    padding: 0;
+                }
 
             }
         }

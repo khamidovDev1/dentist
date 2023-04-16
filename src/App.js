@@ -25,16 +25,16 @@ function App() {
       <Main1Bottom />
       <Line />
       <Main2 />
-      <Main2Bottom />
-      <Main3 />
-      <Main4 />
-      <Main5 />
-      <Main6 />
-      <Main6Bottom />
-      <Main7 />
-      <Main8 />
-      <Map />
-      <Footer />
+      {/* <Main2Bottom /> */}
+      {/* <Main3 /> */}
+      {/* <Main4 /> */}
+      {/* <Main5 /> */}
+      {/* <Main6 /> */}
+      {/* <Main6Bottom /> */}
+      {/* <Main7 /> */}
+      {/* <Main8 /> */}
+      {/* <Map /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
