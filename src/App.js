@@ -25,7 +25,7 @@ function App() {
       <Main1Bottom />
       <Line />
       <Main2 />
-      {/* <Main2Bottom /> */}
+      <Main2Bottom />
       {/* <Main3 /> */}
       {/* <Main4 /> */}
       {/* <Main5 /> */}
