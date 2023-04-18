@@ -40,7 +40,7 @@
                 padding-bottom: 20px;
 
                 // padding-bottom: 70px;
-                &::after {
+                .img1_div1::after {
                     content: "1";
                     width: 80px;
                     height: 80px;
@@ -81,7 +81,7 @@
                 padding-bottom: 20px;
 
                 // padding-bottom: 70px;
-                &::after {
+                .img1_div2::after {
                     content: "2";
                     width: 80px;
                     height: 80px;
@@ -122,7 +122,7 @@
                 padding-bottom: 20px;
 
                 // padding-bottom: 70px;
-                &::after {
+                .img1_div3::after {
                     content: "3";
                     width: 80px;
                     height: 80px;
@@ -197,7 +197,7 @@
 @media(max-width:391px) {
     .main6 {
         width: 100%;
-        height: 100vh;
+        height: auto;
         padding: 30px;
 
         .main6_start {
@@ -213,52 +213,60 @@
             width: 100%;
             display: flex;
             justify-content: center;
-            height: 200vh;
+            height: auto;
 
             .middle_img {
                 flex-direction: column;
                 align-items: center;
+                justify-content: center;
                 height: 80vh;
 
 
                 .middle_img1 {
                     width: 70%;
-                    justify-content: space-evenly;
+                    height: auto;
+                    justify-content: space-between;
+                    background-color: red;
+                    padding: 0;
 
-                    &::after {
+                    .img1_div1::after {
+                        bottom: 30px;
                         width: 50px;
                         height: 50px;
-                        bottom: 60px;
-                        left: auto;
+                        left: 40%;
                         font-size: 20px;
                     }
                 }
 
                 .middle_img2 {
                     width: 70%;
-                    justify-content: space-evenly;
+                    height: auto;
+                    justify-content: space-between;
+                    background-color: red;
+                    padding: 0;
 
-                    &::after {
+                    .img1_div2::after {
+                        bottom: 30px;
                         width: 50px;
                         height: 50px;
-                        bottom: 60px;
-                        left: auto;
+                        left: 40%;
                         font-size: 20px;
                     }
                 }
 
                 .middle_img3 {
                     width: 70%;
-                    justify-content: space-around;
+                    height: auto;
+                    justify-content: space-between;
+                    background-color: red;
+                    padding: 0;
 
-                    &::after {
+                    .img1_div3::after {
+                        bottom: 30px;
                         width: 50px;
                         height: 50px;
-
-                        left: auto;
-                        bottom: 75px;
+                        left: 40%;
                         font-size: 20px;
-                        margin: auto;
                     }
                 }
 

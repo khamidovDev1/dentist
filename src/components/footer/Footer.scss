@@ -199,9 +199,20 @@
         height: auto;
         padding: 30px;
 
+
         .footer_start {
+            display: flex;
+            flex-direction: column;
+            background-color: red;
+            height: auto;
+            align-items: center;
+
             div {
                 width: 10px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                display: flex;
+
 
                 li {
                     a {
@@ -218,6 +229,7 @@
                 flex-direction: column;
                 justify-content: space-around;
 
+
                 h1 {
                     font-size: 10px;
                     color: #B28A69;
@@ -225,6 +237,7 @@
 
                 li {
                     list-style-type: none;
+                    text-align: center;
 
                     a {
                         color: white;
@@ -247,6 +260,7 @@
 
                 li {
                     list-style-type: none;
+                    text-align: center;
 
                     a {
                         color: white;
@@ -269,6 +283,7 @@
 
                 li {
                     list-style-type: none;
+                    text-align: center;
 
                     a {
                         color: white;
@@ -291,6 +306,7 @@
 
                 li {
                     list-style-type: none;
+                    text-align: center;
 
                     a {
                         color: white;
@@ -302,7 +318,7 @@
                 // border: 2px solid red;
                 width: 15%;
                 height: 70%;
-                display: flex;
+                display: none;
                 flex-direction: column;
                 justify-content: space-around;
 
@@ -327,6 +343,7 @@
 
                 li {
                     list-style-type: none;
+                    text-align: center;
 
                     a {
                         color: white;
@@ -338,9 +355,10 @@
                 // border: 2px solid red;
                 width: 15%;
                 height: 60%;
-                display: flex;
+                display: none;
                 flex-direction: column;
                 justify-content: space-around;
+
 
                 div {
                     height: 30px;
@@ -373,6 +391,7 @@
 
                 li {
                     list-style-type: none;
+                    text-align: center;
 
                     a {
                         color: white;
