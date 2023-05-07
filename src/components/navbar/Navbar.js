@@ -12,7 +12,7 @@ function Navbar() {
             </div>
             <div className="nav_menu">
                 <ul className='menu_ul'>
-                    <li><a href="/">About Us</a><FiChevronDown />
+                    <li>About Us<FiChevronDown />
                         <div className="li_hover1">
                             <ul>
                                 <li><a href="/">Meet Dr. Raymond</a></li>
@@ -23,10 +23,10 @@ function Navbar() {
 
                         </div>
                     </li>
-                    <li><a href="/">Services</a><FiChevronDown />
+                    <li>Services<FiChevronDown />
                         <div className="li_hover2">
                             <ul>
-                                <li><a href="/">Services</a></li>
+                                <li><a href="sevice">Services</a></li>
                                 <li><a href="/">Cosmetic & Elective</a></li>
                                 <li><a href="/">Prevantive</a></li>
                                 <li><a href="/">Full-Mouth Transformation</a></li>
@@ -34,7 +34,7 @@ function Navbar() {
                         </div>
 
                     </li>
-                    <li><a href="/">Before & After</a></li>
+                    <li>Before & After</li>
                     <li><a href="/">Patient Resources</a><FiChevronDown />
                         <div className="li_hover3">
                             <ul>
@@ -48,7 +48,7 @@ function Navbar() {
                         </div>
 
                     </li>
-                    <li><a href="/">Blog</a></li>
+                    <li>Blog</li>
                 </ul>
                 <button>REQUEST APPOINTMENT</button>
             </div>

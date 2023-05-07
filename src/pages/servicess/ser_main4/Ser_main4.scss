@@ -1,0 +1,52 @@
+.sermain4 {
+    width: 100%;
+    height: 40vh;
+    // background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .sermain4_div {
+        width: 80%;
+        height: 80%;
+        // background-color: blue;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        background-image: url("../../../images/sermain4_img4.jpg");
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: color;
+        background-color: rgba(0, 0, 0, 0.651);
+        padding-inline-start: 40px;
+        color: white;
+
+        h1 {
+            font-size: 20px;
+        }
+
+        hr {
+            width: 100px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .ser_main4_btn {
+            width: 100%;
+            height: 50px;
+            // background-color: green;
+
+            button {
+                width: 140px;
+                height: 100%;
+                background-color: #7F9C92;
+                border: none;
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+    }
+
+}
